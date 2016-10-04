@@ -1,0 +1,10 @@
+#navbar {
+
+    margin-bottom: 20px;
+
+}
+@media screen and (min-width: 600px) {
+    #brand-bar {
+        margin-bottom: 40px;
+    }
+}

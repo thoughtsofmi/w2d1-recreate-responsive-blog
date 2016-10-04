@@ -7,19 +7,37 @@ header {
     color: white;
 
 }
+.row {
+    display:flex;
+    flex-direction: row;
+}
+.row-inline {
+    flex-direction: row;
+}
+.col {
+    flex: 1;
+    padding: 0 15px;
+}
 .blue {
     background: #1560FC;
     width: 554px;
-    height: 120vw;
+    height: 700px;
+}
+.col_right {
+    text-align: right;
 }
 header img {
     width: 200px;
     border-radius: 50%;
     margin-top: 100px;
 }
+.trans {
+    opacity: .5;
+}
 button {
     background-color: transparent;
      border: 2px solid white;
+     font-color: white;
  }
 h4 {
      color:#1560FC;
@@ -27,8 +45,16 @@ h4 {
  .project_names {
      font-size: 30px;
  }
+ span {
+     color: #1560FC;
+     margin-right: 30px;
+     margin-left: 0px;
+     padding-left: 0px;
+ }
  ul {
      font-weight: bold;
+     text-decoration: none;
+     list-style-type: none;
  }
  .row {
      display: flex;
