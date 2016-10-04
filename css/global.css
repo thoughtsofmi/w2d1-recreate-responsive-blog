@@ -5,8 +5,8 @@ img { width: 100%; }
 header {
     text-align: center;
     color: white;
-
 }
+
 span.bblue {
     color:#1560FC;
 }
@@ -15,7 +15,7 @@ h5 {
 }
 .row {
     display:flex;
-    flex-direction: row;
+    justify-content: flex-start;
 }
 .row-inline {
     flex-direction: column;
@@ -24,13 +24,13 @@ h5 {
     float:left;
 }
 .col {
-    flex: 1;
+    flex: 2;
     padding: 0 15px;
 }
 .blue {
     background: #1560FC;
     width: 554px;
-    height: 700px;
+    height: 630px;
 }
 .col_right {
     text-align: right;
@@ -39,18 +39,22 @@ header img {
     width: 200px;
     border-radius: 50%;
     margin-top: 100px;
+    box-shadow: 5px 5px 2px #273450;
 }
 .trans {
     opacity: .5;
 }
+.botpad {
+    padding-bottom: 20px;
+}
 button {
     background-color: transparent;
      border: 2px solid white;
-     font-color:#ffffff;
+     color:#ffffff;
      margin-bottom: 50px;
      padding: 10px;
  }
- .madein {
+ span.madein {
      font-size: 14px;
      color: #ffffff;
      opacity: .5;
@@ -78,6 +82,9 @@ h4 {
  .row {
      display: flex;
      flex-direction: row;
+ }
+ .upper_box_right {
+     margin-bottom: 50px;
  }
  /*.col {
      flex: 1;
