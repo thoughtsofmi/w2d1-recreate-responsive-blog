@@ -1,0 +1,135 @@
+* {box-sizing: border-box; }
+html, body { height:100%; }
+img { width: 100%; }
+
+header {
+    text-align: center;
+    color: white;
+
+}
+.blue {
+    background: #1560FC;
+    width: 554px;
+    height: 120vw;
+}
+header img {
+    width: 200px;
+    border-radius: 50%;
+    margin-top: 100px;
+}
+button {
+    background-color: transparent;
+     border: 2px solid white;
+ }
+h4 {
+     color:#1560FC;
+ }
+ .project_names {
+     font-size: 30px;
+ }
+ ul {
+     font-weight: bold;
+ }
+ .row {
+     display: flex;
+     flex-direction: row;
+ }
+ /*.col {
+     flex: 1;
+     padding: 0 15px;
+ }*/
+ .col h1, .col h2, .col h3, .col h4, .col h5, .col h6, .col p {
+     margin: 20px 0;
+ }
+ .lower_box_left{
+     display:none;
+ }
+ .upper_box_left{
+     display:none;
+ }
+.rndt {
+    display:block;
+}
+ /*tablet*/
+ @media screen and (min-width: 641px) and (max-width: 767px)  {
+     body {
+         display: flex;
+     }
+     .upper_box_left {
+         display:none;
+     }
+     .lower_box_left {
+         display:none;
+     }
+
+     .col-1 {flex:1;}
+     .col-2 {flex:2;}
+     .col-3 {flex:3;}
+     .col-4 {flex:4;}
+     .col-5 {flex:5;}
+     .col-6 {flex:6;}
+     .col-7 {flex:7;}
+     .col-8 {flex:8;}
+     .col-9 {flex:9;}
+     .col-10 {flex:10;}
+     .col-11 {flex:11;}
+     .col-12 {flex:12;}
+
+    }
+
+
+/*desktop*/
+ @media screen and (min-width: 768px) {
+     body {
+         display:flex;
+     }
+    /* .box {
+         display: flex;
+         flex: 2;
+         flex-direction: row;
+     }*/
+
+    #upper_box {
+         display:flex;
+         flex-direction:row;
+
+     }
+     .upper_box_left {
+         flex:.8;
+     }
+     .upper_box_right {
+         flex:1.2;
+     }
+     #lower_box {
+         display:flex;
+         flex-direction:row;
+     }
+     .lower_box_left {
+         flex:.8;
+     }
+     .lower_box_right {
+         flex:1.2;
+     }
+
+     .lower_box_left {
+         display:block;
+     }
+     .upper_box_left {
+         display: block;
+     }
+     .rndt {
+         display: none;
+     }
+    .col-1 {flex:1;}
+     .col-2 {flex:2;}
+     .col-3 {flex:3;}
+     .col-4 {flex:4;}
+     .col-5 {flex:5;}
+     .col-6 {flex:6;}
+     .col-7 {flex:7;}
+     .col-8 {flex:8;}
+     .col-9 {flex:9;}
+     .col-10 {flex:10;}
+     .col-11 {flex:11;}
+     .col-12 {flex:12;}
+}
